@@ -1,0 +1,35 @@
+.deleteBtn {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(248, 77, 51);
+  flex-basis: 1;
+}
+
+table {
+  margin-bottom: 10px;
+  border: 2px solid;
+}
+
+tr {
+  display: flex;
+  margin: 2px;
+}
+
+tr:hover {
+  box-shadow: 0px 0px 5px 7px lightblue;
+  background-color: rgb(8, 9, 46);
+}
+
+td {
+  flex-basis: 1;
+  border: solid 1px;
+  padding: 10px;
+}
+
+.favouriteBtn:hover {
+  background-color: rgb(116, 159, 0);
+  cursor: pointer;
+}

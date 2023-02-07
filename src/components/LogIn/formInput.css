@@ -1,0 +1,30 @@
+.errorMsg {
+  font-size: 12px;
+  padding: 3px;
+  color: rgb(241, 126, 126);
+  display: none;
+}
+
+.inputBlock:invalid[focused="true"] ~ .errorMsg {
+  display: block;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 110px;
+  overflow: auto;
+}
+
+input {
+  padding: 4px;
+}
+
+.formInput {
+  display: flex;
+  margin-top: 5px;
+}
+
+.removeBtn {
+  margin-left: 5px;
+}
